@@ -376,6 +376,5 @@ jQuery(async () => {
     if ($('#idle_random_time').prop('checked')) {
         $('#idle_timer_min').parent().show();
     }
-    registerSlashCommand('idle', toggleIdle, [], '– toggles idle mode', true, true);
-    registerSlashCommand('sip', sendIdlePrompt, [], '– sends an idle prompt', true, true);
+    registerSlashCommand('sidle', toggleIdle, [], '– toggles idle mode', true, true);
 });
